@@ -1,0 +1,29 @@
+.about_container {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+    gap: 5px;    
+}
+
+.img {
+    border: solid black;
+    border-radius: 15%;
+}
+
+@media (min-width: 769px) {
+    .about_container {
+        flex-direction: row;
+        font-size: 25px;
+
+    }
+
+    .img {
+        width: 50%;
+        height: 100%;
+        border: solid black;
+        border-radius: 15%;
+    }
+}

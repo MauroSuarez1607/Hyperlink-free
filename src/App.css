@@ -1,0 +1,38 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: start;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.card {
+  padding: 2em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px; /* Distancia desde el fondo */
+  right: 20px; /* Distancia desde la izquierda */
+  background-color: #000000; /* Color de fondo */
+  color: rgb(255, 255, 255); /* Color del texto */
+  border: solid;
+  border-radius: 5px;
+  padding: 5px 15px;
+  cursor: pointer;
+  display: none; /* Inicialmente oculto */
+  z-index: 1000; /* Asegúrate de que esté encima de otros elementos */
+  font-size: 25px;
+}
+
+.scroll-to-top.visible {
+  display: block; /* Mostrar cuando sea necesario */
+}
+

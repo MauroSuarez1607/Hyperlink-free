@@ -1,0 +1,27 @@
+.contact_container{
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contact_container button {
+    background-color: #34D1D1;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: large;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+@media (min-width: 481px) {
+    .contact_container button {
+        width: 20%;
+        margin-left: 40%;
+    }
+}
